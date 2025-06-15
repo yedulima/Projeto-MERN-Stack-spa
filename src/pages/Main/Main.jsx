@@ -1,5 +1,12 @@
+import Navbar from "../../components/Navbar/Navbar";
+
 const Main = () => {
-    return <h1>Hell World!</h1>
+    return (
+        <>
+            <Navbar />
+            <h1>Hell World!</h1>
+        </>
+    );
 };
 
 export default Main;
