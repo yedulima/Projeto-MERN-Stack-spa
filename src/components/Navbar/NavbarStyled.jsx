@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    width: 250px;
+    width: 12.5%;
     height: 100vh;
 
     display: flex;
@@ -9,6 +9,12 @@ export const Nav = styled.nav`
     justify-content: space-between;
 
     border-right: 1px solid #ddd;
+    background-color: #FFF;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 
     padding: 30px 20px;
     box-sizing: border-box;
@@ -27,8 +33,8 @@ export const ImageLogo = styled.img`
 
 export const Brand = styled.h3`
     font-size: 1.2rem;
-    color: #697077;
     font-weight: bold;
+    color: #697077;
 `;
 
 export const Separator = styled.hr`

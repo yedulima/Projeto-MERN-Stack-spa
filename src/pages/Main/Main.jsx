@@ -1,10 +1,19 @@
-import Navbar from "../../components/Navbar/Navbar";
+import Card from "../../components/Card/Card";
+import data from "../../Data";
+import { MainBody, PostsBody, Title } from "./MainStyled";
 
 const Main = () => {
     return (
         <>
-            <Navbar />
-            <h1>Hell World!</h1>
+            <MainBody>
+                <Title>Posts</Title>
+                <hr />
+                <PostsBody>
+                    {data.map((post, index) => {
+                        return <Card key={index} post={post} />;
+                    })}
+                </PostsBody>
+            </MainBody>
         </>
     );
 };
