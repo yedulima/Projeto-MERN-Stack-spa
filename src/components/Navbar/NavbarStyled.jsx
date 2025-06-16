@@ -62,8 +62,8 @@ export const MenuButton = styled.button`
     align-items: center;
     gap: 15px;
 
-    background: ${(props) => (props.active ? "#f2f4f8" : "transparent")};
-    border: ${(props) => (props.active ? "1px solid #e0e0e0" : "none")};
+    background-color: "#f2f4f8";
+    border: 1px solid #e0e0e0;
 
     color: #161616;
     font-weight: 500;

@@ -35,7 +35,7 @@ const Navbar = () => {
 
             <Menu>
                 <MenuItem>
-                    <MenuButton active>
+                    <MenuButton>
                         <img src={homeIcon} alt="Home" />
                         <span>Main</span>
                     </MenuButton>

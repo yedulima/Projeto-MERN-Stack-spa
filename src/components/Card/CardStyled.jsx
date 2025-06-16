@@ -34,6 +34,7 @@ export const CardBody = styled.article`
     h2 {
         align-self: center;
         width: 95%;
+        max-height: 10%;
 
         font-weight: 600;
         font-size: 1.6rem;
@@ -49,6 +50,7 @@ export const CardBody = styled.article`
         font-weight: 500;
         font-size: 0.8rem;
         letter-spacing: 0.02rem;
+        text-align: left;
 
         color: #404040;
     }

@@ -6,12 +6,12 @@ import savesIcon from "../../images/icons/bookmark-empty.png";
 import { CardContainer, CardBody, CardFooter, Icon } from "./CardStyled";
 import { OptionsButton } from "../Navbar/NavbarStyled";
 
-const Card = ({ post }) => {
+const Card = (post) => {
     const title = post.title;
     const text = post.text;
     const banner = post.banner;
     const date = post.date;
-    const author = post.author;
+    const author = post.userName;
     const comments = post.comments;
     const views = post.views;
     const likes = post.likes;
