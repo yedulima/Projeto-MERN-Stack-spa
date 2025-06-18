@@ -12,6 +12,7 @@ export const CardContainer = styled.section`
 
 export const CardBody = styled.article`
     width: 100%;
+    height: 85%;
 
     display: flex;
     justify-content: flex-start;
@@ -46,6 +47,7 @@ export const CardBody = styled.article`
     p {
         align-self: center;
         width: 95%;
+        max-height: 30%;
 
         font-weight: 500;
         font-size: 0.8rem;
@@ -56,8 +58,13 @@ export const CardBody = styled.article`
     }
 
     span {
-        align-self: center;
         width: 95%;
+        max-height: 15%;
+
+        display: flex;
+        align-items: center;
+
+        align-self: center;
 
         font-weight: 500;
         font-size: 0.8rem;

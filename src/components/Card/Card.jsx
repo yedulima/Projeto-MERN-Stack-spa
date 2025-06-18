@@ -5,6 +5,7 @@ import savesIcon from "../../images/icons/bookmark-empty.png";
 
 import { CardContainer, CardBody, CardFooter, Icon } from "./CardStyled";
 import { OptionsButton } from "../Navbar/NavbarStyled";
+import TextLimit from "../TextLimit/TextLimit";
 
 const Card = (post) => {
     const title = post.title;
@@ -23,7 +24,7 @@ const Card = (post) => {
                 <CardBody>
                     <img src={banner} alt="Banner" />
                     <h2>{title}</h2>
-                    <p>{text}</p>
+                    <TextLimit text={text} limit={150} />
                     <span>
                         {date} by {author}
                     </span>
